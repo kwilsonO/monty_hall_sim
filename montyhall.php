@@ -1,20 +1,6 @@
 <?php
 
-/**$options = getopt("r:d:");
-
-$runs = $options['r'];
-if ($runs == ""){
-	$runs = 1000;
-}
-$doors = $options['d'];
-if ($doors == "" ){
-	$doors = 3;
-}
-echo "Number of runs: $runs\n";
-echo "Number of doors: $doors\n";
-**/
-
-$runs = 1000.0;
+$runs = 10000.0;
 $stayWinCount = 0;
 $switchWinCount = 0;
 
